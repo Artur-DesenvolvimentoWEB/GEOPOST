@@ -24,9 +24,18 @@ btnEnviar.addEventListener("click",() => {
         .map( a => {
            return a.value
         });
-        for(var i = 0; i < arrayTimes1.length ; i++){
-                 console.log(arrayTimes1[i].time)}
-
+        
+        var timeP;
+   
+    for(i=0;i<listaTimesFormatados.length;i++){
+        timeP = listaTimesFormatados[i];
+        console.log(timeP);
+        for(x=0;x<listaTimesFormatados.length;x++){
+            if (timeP != listaTimesFormatados[x]){
+                console.log( "jogo: " + timeP + " X " +  arrTimes2[x]);
+            }
+        }
+    }
     
 
 
