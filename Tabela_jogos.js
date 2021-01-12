@@ -32,7 +32,7 @@ btnEnviar.addEventListener("click",() => {
         console.log(timeP);
         for(x=0;x<listaTimesFormatados.length;x++){
             if (timeP != listaTimesFormatados[x]){
-                console.log( "jogo: " + timeP + " X " +  <listaTimesFormatados[x]);
+                console.log( "jogo: " + timeP + " X " +  listaTimesFormatados[x]);
             }
         }
     }
