@@ -25,14 +25,14 @@ btnEnviar.addEventListener("click",() => {
            return a.value
         });
         
-        var timeP;
+        let timeP;
    
     for(i=0;i<listaTimesFormatados.length;i++){
         timeP = listaTimesFormatados[i];
         console.log(timeP);
         for(x=0;x<listaTimesFormatados.length;x++){
             if (timeP != listaTimesFormatados[x]){
-                console.log( "jogo: " + timeP + " X " +  listaTimesFormatados[x]);
+                console.log( "jogo: " + timeP.time + " X " +  listaTimesFormatados[x].time);
             }
         }
     }
